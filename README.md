@@ -30,7 +30,7 @@ A Python-based simulator for demonstrating and experimenting with Lamport's Logi
 
 3. Run the simulation:
     ```bash
-    python lamport-simulation.py
+    python lamport_simulation.py
     ```
 
 ## How to Use
