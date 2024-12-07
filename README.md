@@ -66,7 +66,7 @@ How to Use
 Project Structure
 -----------------
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`plaintextCopy codeLamport-clock-simulator/    │    ├── lamport-simulation.py   # Single file containing both GUI and logic for simulation.    ├── README.md               # Documentation for the project.`  
+plaintextCopy codeLamport-clock-simulator/    │    ├── lamport-simulation.py   # Single file containing both GUI and logic for simulation.    ├── README.md               # Documentation for the project.`  
 
 Screenshots
 -----------
