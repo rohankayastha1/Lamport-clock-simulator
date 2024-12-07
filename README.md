@@ -1,111 +1,86 @@
-Lamport Clock Simulator
-=======================
+# Lamport Clock Simulator
 
 A Python-based simulator for demonstrating and experimenting with Lamport's Logical Clock algorithm. This project provides both backend functionality for logical clocks and a graphical user interface (GUI) to visualize and interact with the simulation.
 
-Features
---------
+## Features
 
-*   Simulate multiple processes, each with its own logical clock.
-    
-*   Trigger local events to increment a process's clock.
-    
-*   Transmit and receive messages between processes with proper clock synchronization.
-    
-*   Capture snapshots of the current states of all processes.
-    
-*   User-friendly graphical interface built with Tkinter.
-    
+* Simulate multiple processes, each with its own logical clock.
+* Trigger local events to increment a process's clock.
+* Transmit and receive messages between processes with proper clock synchronization.
+* Capture snapshots of the current states of all processes.
+* User-friendly graphical interface built with Tkinter.
 
-Prerequisites
--------------
+## Prerequisites
 
-*   Python 3.7 or higher
-    
-*   Required libraries:
-    
-    *   tkinter (comes pre-installed with Python)
-        
+* Python 3.7 or higher
+* Required libraries:
+  * tkinter (comes pre-installed with Python)
 
-Installation
-------------
+## Installation
 
-1.  bashCopy codegit clone https://github.com/rohankayastha1/Lamport-clock-simulator.git
-    
-2.  bashCopy codecd Lamport-clock-simulator
-    
-3.  bashCopy codepython lamport-simulation.py
-    
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/rohankayastha1/Lamport-clock-simulator.git
+    ```
 
-How to Use
-----------
+2. Navigate into the project directory:
+    ```bash
+    cd Lamport-clock-simulator
+    ```
 
-1.  **Start the Simulation**:
-    
-    *   Enter the number of processes you want to simulate in the input box and click **"Create Processes"**.
-        
-2.  **Trigger Local Events**:
-    
-    *   Click **"Local Event"** for any process to increment its clock.
-        
-3.  **Send Messages**:
-    
-    *   Click **"Send Message"** for a process to send a message to one or more recipient processes.
-        
-    *   Select the recipients in the dialog box and confirm the message.
-        
-4.  **Receive Messages**:
-    
-    *   Click **"Receive Message"** for a process to process a pending message from the message queue.
-        
-5.  **Capture Snapshot**:
-    
-    *   Click **"Take Snapshot"** to view the current clock values of all processes.
-        
+3. Run the simulation:
+    ```bash
+    python lamport-simulation.py
+    ```
 
+## How to Use
 
-Understanding the Code
-----------------------
+1. **Start the Simulation**:
+   * Enter the number of processes you want to simulate in the input box and click **"Create Processes"**.
+
+2. **Trigger Local Events**:
+   * Click **"Local Event"** for any process to increment its clock.
+
+3. **Send Messages**:
+   * Click **"Send Message"** for a process to send a message to one or more recipient processes.
+   * Select the recipients in the dialog box and confirm the message.
+
+4. **Receive Messages**:
+   * Click **"Receive Message"** for a process to process a pending message from the message queue.
+
+5. **Capture Snapshot**:
+   * Click **"Take Snapshot"** to view the current clock values of all processes.
+
+## Understanding the Code
 
 ### Logical Clock
 
 Each process is represented by a logical clock that:
 
-*   Increments on local events.
-    
-*   Increments and transmits its value during message sending.
-    
-*   Synchronizes with received clock values during message reception.
-    
+* Increments on local events.
+* Increments and transmits its value during message sending.
+* Synchronizes with received clock values during message reception.
 
 ### GUI
 
 The Tkinter-based interface provides an interactive way to:
 
-*   Manage processes.
-    
-*   Trigger events and simulate message exchanges.
-    
-*   Display snapshots of the system state.
-    
+* Manage processes.
+* Trigger events and simulate message exchanges.
+* Display snapshots of the system state.
 
-Future Improvements
--------------------
+## Future Improvements
 
-*   Add support for vector clocks.
-    
-*   Display a visual representation of message exchanges.
-    
-*   Allow saving and loading snapshots.
-    
+* Add support for vector clocks.
+* Display a visual representation of message exchanges.
+* Allow saving and loading snapshots.
 
-About
--------
+## About
 
-This project is a part of academic subject project 
+This project is a part of an academic subject project.
 
+## Author
 
-Author
-------
-
-Rohan Kayastha KaluwarEmail: rohankayastha111@gmail.comGitHub: [rohankayastha1](https://github.com/rohankayastha1)
+Rohan Kayastha Kaluwar  
+Email: rohankayastha111@gmail.com  
+GitHub: [rohankayastha1](https://github.com/rohankayastha1)
