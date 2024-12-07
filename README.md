@@ -63,15 +63,6 @@ How to Use
     *   Click **"Take Snapshot"** to view the current clock values of all processes.
         
 
-Project Structure
------------------
-
-plaintextCopy codeLamport-clock-simulator/    │    ├── lamport-simulation.py   # Single file containing both GUI and logic for simulation.    ├── README.md               # Documentation for the project.`  
-
-Screenshots
------------
-
-_(Add screenshots of the GUI showing the initialization, events, message transmission, and snapshots.)_
 
 Understanding the Code
 ----------------------
@@ -108,15 +99,11 @@ Future Improvements
 *   Allow saving and loading snapshots.
     
 
-License
+About
 -------
 
-This project is open-source and licensed under the MIT License.
+This project is a part of academic subject project 
 
-Contributions
--------------
-
-Contributions are welcome!Feel free to fork the repository and create pull requests.
 
 Author
 ------
